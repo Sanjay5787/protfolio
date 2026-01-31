@@ -175,7 +175,7 @@ function addTypingAnimation() {
 
 // Handle resume download
 function setupResumeDownload() {
-    const resumeLinks = document.querySelectorAll('a[href="resume.pdf"]');
+    const resumeLinks = document.querySelectorAll('a[href="Sanjay_Uppala_Resume.pdf"]');
     
     resumeLinks.forEach(link => {
         link.addEventListener('click', function(e) {
