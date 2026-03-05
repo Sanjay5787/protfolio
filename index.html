@@ -2,725 +2,469 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Full Stack Developer with experience in Java, Spring Boot, React, Angular, Kafka, and AWS. Enterprise application development at State Street and Persistent Systems.">
-    <title>Sanjay Uppala - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/lucide@latest"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Full Stack Java Developer with around 5 years of experience in Java (8/11/17/21), Spring Boot, Microservices, Spring WebFlux, Spring Security (JWT), ReactJS, Angular, Kafka, RabbitMQ, and AWS." />
+  <title>Sanjay Uppala - Portfolio</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="container">
-                <div class="logo-container">
-                    <div class="logo">Sanjay Uppala</div>
-                    <div class="logo-accent"></div>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <div class="menu-toggle">
-                    <i data-lucide="menu" size="24"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <section id="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Hi, I'm <span class="highlight">Sanjay Uppala</span></h1>
-                <p class="subtitle">Full Stack Developer & Data Science Enthusiast</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn-primary">
-                        Get in Touch
-                        <i data-lucide="send" size="18"></i>
-                    </a>
-                    <a href="Sanjay_Uppala_Resume.pdf" download="Sanjay_Uppala_Resume.pdf" class="btn-secondary">
-                        Download Resume
-                        <i data-lucide="download" size="18"></i>
-                    </a>
-                </div>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/sanjay-uppala-250389210/" target="_blank"
-                        rel="noopener noreferrer" aria-label="LinkedIn">
-                        <i data-lucide="linkedin" size="24"></i>
-                    </a>
-                    <a href="mailto:sanjayuppala5787@gmail.com" target="_blank" rel="noopener noreferrer"
-                        aria-label="Email">
-                        <i data-lucide="mail" size="24"></i>
-                    </a>
-                    <a href="https://github.com/Sanjay5787" target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub">
-                        <i data-lucide="github" size="24"></i>
-                    </a>
-                </div>
-                <div class="scroll-indicator">
-                    <i data-lucide="chevron-down" size="24"></i>
-                </div>
-            </div>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="container">
+        <div class="logo-container">
+          <div class="logo">Sanjay Uppala</div>
+          <div class="logo-accent"></div>
         </div>
-    </section>
 
-    <section id="about">
-        <div class="container">
-            <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <div class="about-image">
-                    <img id="profile-image" src="sanjay-profile.jpg" alt="Sanjay Uppala" />
-                </div>
-                <div class="about-text">
-                    <p>I’m a <strong>Full Stack Developer</strong> with over <strong>4 years of professional
-                            experience</strong> and a
-                        <strong>Master’s in Data Science from DePaul University</strong>, specializing in building
-                        secure,
-                        high-performance backend systems and enterprise-scale applications.
-                    </p>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-                    <p>For the <strong>last one year at State Street</strong>, I’ve been part of a team developing a
-                        <strong>financial trading and reporting platform</strong>. I build and maintain
-                        <strong>Spring Boot REST APIs</strong> that handle large data transactions and reporting
-                        workflows, implement
-                        <strong>JWT and OAuth 2.0</strong> for secure authorization, and use <strong>Spring AOP</strong>
-                        for centralized
-                        logging, exception handling, and performance monitoring. I work extensively with
-                        <strong>PostgreSQL</strong> and optimize data access using <strong>JPA/Hibernate</strong>, while
-                        collaborating
-                        with DevOps teams to deliver reliable releases through <strong>Jenkins-based CI/CD
-                            pipelines</strong>.
-                    </p>
-
-                    <p>Previously at <strong>Persistent Systems</strong>, I contributed to enterprise platforms
-                        including
-                        <strong>MyHealth1st</strong>, a UK-based healthcare scheduling system, and the <strong>Capstone
-                            HR Tool</strong>.
-                        I built secure and scalable <strong>Spring Boot services</strong>, implemented
-                        <strong>role-based authentication</strong>, and supported <strong>live appointment
-                            booking</strong> and
-                        high-traffic operational workflows while ensuring performance, reliability, and data
-                        consistency.
-                    </p>
-
-                    <p>I thrive in <strong>Agile teams</strong>, enjoy solving complex backend and system-level
-                        challenges, and am
-                        passionate about building secure, scalable software solutions that deliver measurable business
-                        impact.</p>
-                </div>
-
-            </div>
+        <div class="menu-toggle" role="button" tabindex="0" aria-label="Open Menu">
+          <i data-lucide="menu" size="24"></i>
         </div>
-    </section>
+      </div>
+    </nav>
+  </header>
 
+  <!-- Hero -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Sanjay Uppala</span></h1>
+        <p class="subtitle">Full Stack Java Developer (Java • Spring • React • AWS)</p>
 
-    <section id="experience">
-        <div class="container">
-            <h2 class="section-title">Professional Experience</h2>
-            <div class="timeline">
-
-                <!-- State Street -->
-                <div class="timeline-item" style="--i:0">
-                    <div class="timeline-content">
-                        <h3>Full Stack Developer</h3>
-                        <p class="company">
-                            <a href="https://www.statestreet.com" target="_blank" rel="noopener noreferrer">
-                                State Street, USA
-                            </a>
-                        </p>
-                        <p class="period">Jan 2025 – Present</p>
-                        <ul class="experience-list">
-                            <li>Developed and maintained <strong>enterprise-grade web applications</strong> using
-                                <strong>React.js</strong>, <strong>TypeScript</strong>, and <strong>Angular</strong>,
-                                managing complex UI
-                                workflows and secure data presentation.
-                            </li>
-
-                            <li>Built scalable backend services using <strong>Java (Spring Boot)</strong> and
-                                <strong>Node.js</strong>, designing <strong>REST APIs</strong> and
-                                <strong>microservices</strong> to support financial trading and reporting workflows.
-                            </li>
-
-                            <li>Implemented <strong>OAuth 2.0</strong> and <strong>JWT authentication</strong> to secure
-                                APIs and enable
-                                <strong>role-based access control</strong> across internal applications.
-                            </li>
-
-                            <li>Designed and optimized data persistence using <strong>PostgreSQL</strong>,
-                                <strong>MySQL</strong>, and <strong>Redis</strong>, improving query performance and
-                                application responsiveness.
-                            </li>
-
-                            <li>Integrated <strong>Kafka / KafkaJS</strong> for asynchronous event processing and
-                                real-time data updates
-                                across distributed services.</li>
-
-                            <li>Deployed and managed applications on <strong>AWS</strong> (<strong>EC2</strong>,
-                                <strong>S3</strong>,
-                                <strong>Lambda</strong>, <strong>EKS</strong>) using <strong>Docker</strong> and
-                                <strong>Kubernetes</strong>, ensuring scalability, reliability, and high availability.
-                            </li>
-
-                            <li>Automated build, test, and deployment pipelines using <strong>Jenkins</strong>,
-                                <strong>GitLab CI/CD</strong>, and <strong>Nginx</strong>, collaborating with
-                                cross-functional teams in an
-                                <strong>Agile/Scrum</strong> environment.
-                            </li>
-                            <li>Optimized client-side <strong>data loading</strong> and <strong>API consumption</strong>
-                                by reducing redundant endpoint
-                                calls, improving page load performance and overall application responsiveness.</li>
-
-                        </ul>
-
-                        <div class="tags">
-                            <span>React.js</span><span>TypeScript</span><span>Angular</span><span>Java</span>
-                            <span>Spring Boot</span><span>Node.js</span><span>REST APIs</span><span>Microservices</span>
-                            <span>OAuth 2.0</span><span>JWT</span><span>PostgreSQL</span><span>MySQL</span>
-                            <span>Redis</span><span>Kafka</span><span>KafkaJS</span><span>AWS</span>
-                            <span>EC2</span><span>S3</span><span>Lambda</span><span>EKS</span>
-                            <span>Docker</span><span>Kubernetes</span><span>Jenkins</span>
-                            <span>GitLab CI/CD</span><span>Nginx</span><span>Agile/Scrum</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Persistent Systems -->
-                <div class="timeline-item" style="--i:1">
-                    <div class="timeline-content">
-                        <h3>Full Stack Developer</h3>
-                        <p class="company">
-                            <a href="https://www.persistent.com" target="_blank" rel="noopener noreferrer">
-                                Persistent Systems, India
-                            </a>
-                        </p>
-                        <p class="period">May 2020 – Aug 2023</p>
-                        <ul class="experience-list">
-                            <li>Developed and maintained <strong>multi-page enterprise web applications</strong> using
-                                <strong>Angular</strong> and <strong>React.js</strong>, managing client-side
-                                <strong>state management</strong> and asynchronous <strong>data loading</strong>
-                                to deliver responsive and reliable user experiences.
-                            </li>
-
-                            <li>Improved application performance by implementing <strong>pagination</strong>, filtering,
-                                and optimized data-fetching strategies, significantly reducing initial page load time
-                                and unnecessary backend API calls.</li>
-
-                            <li>Designed and implemented backend services using <strong>Java (Spring, Spring
-                                    Boot)</strong> and
-                                <strong>Node.js</strong>, building <strong>RESTful APIs</strong> to support core
-                                business
-                                workflows and integrations.
-                            </li>
-
-                            <li>Contributed to the <strong>Capstone HR Tool</strong>, an <strong>internal enterprise HR
-                                    platform</strong>,
-                                developing <strong>Angular-based user interfaces</strong> and <strong>Java backend
-                                    services</strong>
-                                integrated with <strong>MySQL</strong> to support employee onboarding, payroll,
-                                and internal HR operations.</li>
-
-                            <li>Worked on <strong>MyHealth1st</strong>, a UK-based healthcare scheduling platform,
-                                supporting
-                                <strong>appointment booking</strong>, availability management, and real-time user
-                                interactions
-                                through secure and scalable backend services.
-                            </li>
-
-                            <li>Integrated <strong>Apache Kafka</strong> for asynchronous processing to handle
-                                background jobs,
-                                notifications, and decoupled communication between application components.</li>
-
-                            <li>Collaborated in an <strong>Agile/Scrum</strong> environment, automating testing and
-                                CI/CD workflows
-                                using <strong>JUnit</strong>, <strong>Selenium</strong>, <strong>GitLab</strong>, and
-                                <strong>Jenkins</strong>, while tracking development tasks with <strong>Jira</strong>.
-                            </li>
-                        </ul>
-                        <div class="tags">
-                            <span>Angular</span><span>React.js</span><span>Java</span><span>Spring Boot</span>
-                            <span>Node.js</span><span>REST APIs</span>
-                            <span>Capstone HR Tool</span><span>Internal Enterprise Application</span>
-                            <span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span>
-                            <span>State Management</span><span>Pagination</span><span>Data Loading</span>
-                            <span>Kafka</span>
-                            <span>JUnit</span><span>Selenium</span>
-                            <span>GitLab</span><span>Jenkins</span><span>Jira</span>
-                            <span>Agile/Scrum</span>
-                        </div>
-
-
-                    </div>
-                </div>
-
-
-            </div>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn-primary">
+            Get in Touch
+            <i data-lucide="send" size="18"></i>
+          </a>
+          <a href="Sanjay_Uppala_Resume.pdf" download class="btn-secondary">
+            Download Resume
+            <i data-lucide="download" size="18"></i>
+          </a>
         </div>
-    </section>
 
-
-
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">Academic Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Reinforcement Learning for Autonomous Driving</h3>
-                    </div>
-                    <div class="project-content">
-                        <ul class="project-details">
-                            <li>Trained autonomous driving agents using <strong>DQN</strong>, <strong>PPO</strong>, and
-                                <strong>A2C</strong> in various Highway-Env scenarios including
-                                <code>highway-fast-v0</code>, <code>intersection-v0</code>, and
-                                <code>roundabout-v0</code>.
-                            </li>
-                            <li>Explored and fine-tuned <strong>learning rate</strong> and <strong>discount
-                                    factor</strong> hyperparameters to improve reward optimization and stability across
-                                environments.</li>
-                            <li>Evaluated agents using <strong>mean reward</strong> and <strong>success rate</strong>,
-                                achieving 100% success in roundabouts with PPO and stable performance with DQN in
-                                highway driving.</li>
-                            <li>Used <strong>TensorBoard</strong> for visualization and <strong>Google Colab</strong>
-                                for training and experimentation.</li>
-                            <li>📎 <a
-                                    href="https://drive.google.com/drive/folders/1djC_2D1YeeZIHfGqngXRkDqqzqLmlGGY?usp=sharing"
-                                    target="_blank">Project Report & Drive Link</a></li>
-                        </ul>
-                        <div class="tags">
-                            <span>Python</span>
-                            <span>Reinforcement Learning</span>
-                            <span>Stable Baselines3</span>
-                            <span>Highway-Env</span>
-                            <span>OpenAI Gym</span>
-                            <span>TensorFlow</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="project-card">
-                    <div class="project-header">
-                        <h3>Customer Churn Prediction</h3>
-                    </div>
-                    <div class="project-content">
-                        <ul class="project-details">
-                            <li>Developed a machine learning model to predict customer churn, enabling businesses to improve retention strategies by identifying at-risk customers.</li>
-                            <li>Preprocessed and cleaned Kaggle datasets, implementing Logistic Regression and Gradient Boosting to achieve high recall metrics.</li>
-                            <li>Evaluated model performance using accuracy, precision, and recall, optimizing prediction outcomes.</li>
-                        </ul>
-                        <div class="tags">
-                            <span>Python</span>
-                            <span>Machine Learning</span>
-                            <span>Data Analysis</span>
-                        </div>
-                    </div>
-                </div> -->
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Employee Performance Analysis</h3>
-
-                    </div>
-                    <div class="project-content">
-                        <ul class="project-details">
-                            <li>Analyzed employee performance data to identify key factors influencing productivity and
-                                predict future trends for HR decision-making.</li>
-                            <li>Developed a regression model with 88.6% accuracy, applying data cleaning, encoding, and
-                                cross-validation techniques.</li>
-                            <li>Provided actionable insights, demonstrating the impact of training programs and
-                                performance awards on employee success.</li>
-                        </ul>
-                        <div class="tags">
-                            <span>R</span>
-                            <span>Statistical Analysis</span>
-                            <span>Regression</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="project-card">
-                    <div class="project-header">
-                        <h3>Q-Learning Snake Game</h3>
-
-                    </div>
-                    <div class="project-content">
-                        <ul class="project-details">
-                            <li>Developed a Q-Learning agent to autonomously play the Snake Game within a custom OpenAI
-                                Gymnasium environment.</li>
-                            <li>Implemented a Q-table to store state-action values and optimized decision-making using
-                                an epsilon-greedy policy.</li>
-                            <li>Conducted hyperparameter tuning (epsilon, gamma, alpha) to explore the
-                                exploration-exploitation trade-off.</li>
-                            <li>Evaluated agent performance based on reward accumulation, apples collected, and unique
-                                states visited.</li>
-                        </ul>
-                        <div class="tags">
-                            <span>Python</span>
-                            <span>Reinforcement Learning</span>
-                            <span>NumPy</span>
-                            <span>OpenAI Gym</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sanjay-uppala-250389210/" target="_blank" rel="noopener noreferrer"
+            aria-label="LinkedIn">
+            <i data-lucide="linkedin" size="24"></i>
+          </a>
+          <a href="mailto:sanjayuppala31@gmail.com" aria-label="Email">
+            <i data-lucide="mail" size="24"></i>
+          </a>
+          <a href="https://github.com/Sanjay5787" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i data-lucide="github" size="24"></i>
+          </a>
         </div>
-    </section>
 
-    <section id="education">
-        <div class="container">
-            <h2 class="section-title">Education</h2>
-            <div class="education-container">
-                <div class="education-card">
-                    <div class="education-icon">
-                        <i data-lucide="graduation-cap" size="28"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>DePaul University</h3>
-                        <p class="degree">Master's in Data Science</p>
-                        <div class="education-details">
-                            <div class="education-detail">
-                                <i data-lucide="map-pin" size="16"></i>
-                                <span>Chicago, US</span>
-                            </div>
-                            <div class="education-detail">
-                                <i data-lucide="calendar" size="16"></i>
-                                <span>August 2023 - May 2025</span>
-                            </div>
-                        </div>
-                        <div class="education-courses">
-                            <h4>Key Courses</h4>
-                            <div class="course-tags">
-                                <span>Machine Learning</span>
-                                <span>Data Mining</span>
-                                <span>Statistical Analysis</span>
-                                <span>Big Data</span>
-                                <span>Neural Networks</span>
-                                <span>Data Visualization</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- <div class="education-card">
-                    <div class="education-icon">
-                        <i data-lucide="graduation-cap" size="28"></i>
-                    </div>
-                    <div class="education-content">
-                        <h3>Sree Vidyanikethan Engineering College</h3>
-                        <p class="degree">Bachelor of Technology in Computer Science and Systems Engineering</p>
-                        <div class="education-details">
-                            <div class="education-detail">
-                                <i data-lucide="map-pin" size="16"></i>
-                                <span>Tirupati, India</span>
-                            </div>
-                            <div class="education-detail">
-                                <i data-lucide="calendar" size="16"></i>
-                                <span>June 2018 - May 2022</span>
-                            </div>
-                        </div>
-                        <div class="education-courses">
-                            <h4>Key Courses</h4>
-                            <div class="course-tags">
-                                <span>Data Structures</span>
-                                <span>Algorithms</span>
-                                <span>Database Systems</span>
-                                <span>Web Development</span>
-                                <span>Operating Systems</span>
-                                <span>Computer Networks</span>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-            </div>
+        <div class="scroll-indicator">
+          <i data-lucide="chevron-down" size="24"></i>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="skills">
-        <div class="container">
-            <h2 class="section-title">Skills & Technologies</h2>
-            <div class="skills-categories">
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
 
-                <div class="skill-category">
-                    <h3 class="category-title">Programming Languages</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>JavaScript</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>TypeScript</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Java</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Python</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>C++</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Frontend Development</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>React.js</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Redux</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Angular</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>jQuery</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>AJAX</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>HTML5</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>CSS3</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Bootstrap</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Tailwind CSS</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>JSP</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Backend Development</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>Node.js</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Express.js</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Spring Boot</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>REST APIs</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>GraphQL</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Microservices</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>HQL</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Databases</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>MySQL</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>PostgreSQL</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>MongoDB</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Redis</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Cloud & DevOps</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>AWS (EC2, S3, Lambda, EKS)</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Docker</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Kubernetes</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Jenkins</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>GitLab CI/CD</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Nginx</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">APIs & Data Handling</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>JSON</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>SOAP</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>OAuth 2.0</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>JWT Authentication</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>WebSockets</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Collaboration & Version Control</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>Git</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>GitHub</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>GitLab</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Bitbucket</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Jira</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Confluence</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Agile/Scrum</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Testing & Debugging</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>Jest</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Mocha</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Chai</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Cypress</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Postman</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Selenium</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="skill-category">
-                    <h3 class="category-title">Other Tools & Technologies</h3>
-                    <div class="skills-grid">
-                        <div class="skill-item">
-                            <p>KafkaJS</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>ElasticSearch</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Webpack</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>Babel</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>VS Code</p>
-                        </div>
-                        <div class="skill-item">
-                            <p>IntelliJ IDEA</p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+      <div class="about-content">
+        <div class="about-image">
+          <!-- Put your image file in same folder and name it sanjay-profile.jpg -->
+          <img id="profile-image" src="sanjay-profile.jpg" alt="Sanjay Uppala" />
         </div>
-    </section>
 
+        <div class="about-text">
+          <p>
+            Full Stack Java Developer with around 5 years of experience developing enterprise applications using Java
+            (8 / 11 / 17), Spring Boot, Microservices, and Spring WebFlux. Experienced in building RESTful APIs and
+            scalable backend services with strong knowledge of Spring IoC, Dependency Injection, and secure API
+            development using Spring Security and JWT-based authentication.
+          </p>
 
-    <section id="contact">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <p class="contact-text">I'm always open to discussing new projects and opportunities.</p>
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i data-lucide="mail" size="24"></i>
-                    <a href="mailto:uppalasanjay57@gmail.com">uppalasanjay57@gmail.com</a>
-                </div>
-                <div class="contact-item">
-                    <i data-lucide="phone" size="24"></i>
-                    <a href="tel:+13217581515">+1 (321) 758-1515</a>
-                </div>
-                <div class="contact-item">
-                    <i data-lucide="map-pin" size="24"></i>
-                    <span>Chicago, IL</span>
-                </div>
-                <div class="contact-item">
-                    <i data-lucide="file-text" size="24"></i>
-                    <a href="Sanjay_Uppala_Resume.pdf" download="Sanjay_Uppala_Resume.pdf">Download Resume</a>
-                </div>
-            </div>
+          <p>
+            Proficient in developing Single Page Applications using ReactJS, Angular, RxJS, and Vanilla JavaScript, with
+            experience in PostgreSQL, MySQL, MongoDB, and Redis.
+          </p>
+
+          <p>
+            Experienced in deploying cloud-native applications on AWS (EC2, S3, Lambda, API Gateway, RDS) and
+            implementing unit and integration testing using JUnit and Mockito to ensure application reliability.
+            Familiar with Generative AI API integration, prompt engineering, and tuning LLM responses based on
+            application requirements.
+          </p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
+  <!-- Experience -->
+  <section id="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
 
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <p class="copyright">&copy; <span id="current-year"></span> Sanjay Uppala. All rights reserved.</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/sanjay-uppala-250389210/" aria-label="LinkedIn">
-                        <i data-lucide="linkedin" size="20"></i>
-                    </a>
-                    <a href="mailto:uppalasanjay57@gmail.com" aria-label="Email">
-                        <i data-lucide="mail" size="20"></i>
-                    </a>
-                    <a href="https://github.com/Sanjay5787" aria-label="GitHub">
-                        <i data-lucide="github" size="20"></i>
-                    </a>
-                </div>
+      <div class="timeline">
+
+        <!-- Northern Trust -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Java Full Stack Developer (React)</h3>
+            <p class="company">Northern Trust</p>
+            <p class="period">Aug 2024 – Present • Wilmington, USA</p>
+
+            <!-- ✅ EXACT resume points -->
+            <ul class="experience-list">
+              <li>Developed scalable credit risk microservices using Java 17/21, Spring Boot, Spring WebFlux, Hibernate, and JPA,
+                enabling efficient loan processing and borrower risk evaluation services.</li>
+
+              <li>Integrated third-party credit bureau APIs to retrieve borrower credit scores and financial transaction history, supporting
+                automated loan eligibility assessment and credit risk analysis.</li>
+
+              <li>Designed backend services to compute borrower risk scores, loan eligibility, and dynamic interest calculations,
+                implementing event-driven architecture using Apache Kafka and RabbitMQ for asynchronous processing.</li>
+
+              <li>Implemented secure REST APIs using Spring Security with JWT-based authentication and role-based access control
+                (RBAC), ensuring secure access to sensitive borrower and financial data across microservices.</li>
+
+              <li>Built interactive credit risk dashboards using ReactJS, TypeScript, HTML5, CSS3, and Bootstrap, enabling analysts to
+                monitor borrower profiles, loan activity, and financial risk indicators.</li>
+
+              <li>Developed reusable React components and modular UI services, improving frontend maintainability and reducing
+                duplicated UI logic across analytics dashboards.</li>
+
+              <li>Optimized backend performance by reducing redundant API calls and improving service-layer data handling, improving
+                response times for credit risk evaluation services.</li>
+
+              <li>Deployed applications on AWS infrastructure (EC2, S3, Lambda, API Gateway, RDS, DynamoDB), supporting scalable
+                cloud-native financial services.</li>
+
+              <li>Supported DevOps practices by implementing CI/CD pipelines using Jenkins, Docker, and Git, enabling automated build,
+                testing, and deployment of microservices across environments.</li>
+
+              <li>Integrated Generative AI APIs and Large Language Models (LLMs) to analyze borrower financial data and generate
+                automated credit risk insights, applying prompt engineering techniques to improve response quality for analyst
+                workflows.</li>
+            </ul>
+
+            <div class="tags">
+              <span>Java 17/21</span><span>Spring Boot</span><span>Spring WebFlux</span><span>Spring Security</span>
+              <span>JWT</span><span>RBAC</span><span>Hibernate</span><span>JPA</span>
+              <span>ReactJS</span><span>TypeScript</span><span>Kafka</span><span>RabbitMQ</span>
+              <span>AWS</span><span>Jenkins</span><span>Docker</span><span>Git</span>
+              <span>JUnit</span><span>Mockito</span><span>GenAI</span><span>LLMs</span>
             </div>
+          </div>
         </div>
-    </footer>
 
+        <!-- MyHealth1st -->
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h3>Java Full Stack Developer</h3>
+            <p class="company">MyHealth1st</p>
+            <p class="period">May 2020 – Aug 2023 • Hyderabad, India</p>
 
-    <script src="script.js"></script>
+            <!-- ✅ EXACT resume points -->
+            <ul class="experience-list">
+              <li>Developed backend healthcare services using Java, Spring Boot, Spring MVC, Hibernate, and JPA, supporting patient
+                registration, appointment scheduling, and telehealth consultations.</li>
+
+              <li>Implemented dynamic appointment slot management, automatically blocking available time slots when patients proceed to
+                payment to prevent double bookings.</li>
+
+              <li>Designed and developed a doctor management platform from scratch, enabling doctors to manage schedules,
+                appointments, and availability while synchronizing updates dynamically with the main patient application.</li>
+
+              <li>Reused and integrated shared UI modules between the main patient portal and doctor portal, reducing development effort
+                and ensuring consistent user experience across both systems.</li>
+
+              <li>Built responsive patient and provider dashboards using Angular, TypeScript, HTML5, CSS3, and Bootstrap, enabling
+                users to schedule consultations and manage appointment history.</li>
+
+              <li>Integrated a chatbot-based enquiry system using Java, Spring Boot APIs, and Apache Kafka, enabling dynamic message
+                handling for appointment queries and doctor availability requests.</li>
+
+              <li>Improved system performance by implementing Redis caching and optimized API request handling, reducing repeated
+                database queries and improving response times.</li>
+
+              <li>Implemented CI/CD pipelines using Jenkins, Maven, and Git, enabling automated builds, testing, and deployment of
+                healthcare services.</li>
+
+              <li>Conducted technical mentoring and training sessions for junior developers, guiding them on Spring Boot development,
+                API design practices, and code quality standards.</li>
+            </ul>
+
+            <div class="tags">
+              <span>Java</span><span>Spring Boot</span><span>Spring MVC</span><span>Spring Security</span>
+              <span>Hibernate</span><span>JPA</span><span>Angular</span><span>TypeScript</span>
+              <span>Kafka</span><span>Redis</span><span>MySQL</span><span>MongoDB</span>
+              <span>Jenkins</span><span>Maven</span><span>Git</span><span>JUnit</span><span>Mockito</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills (Resume-aligned categories) -->
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Skills & Technologies</h2>
+
+      <div class="skills-categories">
+        <div class="skill-category">
+          <h3 class="category-title">Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>Java (8 / 11 / 17 / 21)</p></div>
+            <div class="skill-item"><p>SQL</p></div>
+            <div class="skill-item"><p>PL/SQL</p></div>
+            <div class="skill-item"><p>NoSQL</p></div>
+            <div class="skill-item"><p>Python</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Frontend</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>Angular</p></div>
+            <div class="skill-item"><p>TypeScript</p></div>
+            <div class="skill-item"><p>JavaScript</p></div>
+            <div class="skill-item"><p>RxJS</p></div>
+            <div class="skill-item"><p>NgRx</p></div>
+            <div class="skill-item"><p>Angular Material</p></div>
+            <div class="skill-item"><p>ReactJS</p></div>
+            <div class="skill-item"><p>HTML5</p></div>
+            <div class="skill-item"><p>CSS3</p></div>
+            <div class="skill-item"><p>Bootstrap</p></div>
+            <div class="skill-item"><p>PrimeNG</p></div>
+            <div class="skill-item"><p>Tailwind CSS</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Backend</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>Spring Boot</p></div>
+            <div class="skill-item"><p>Spring WebFlux</p></div>
+            <div class="skill-item"><p>Spring Security</p></div>
+            <div class="skill-item"><p>Hibernate</p></div>
+            <div class="skill-item"><p>JPA</p></div>
+            <div class="skill-item"><p>Microservices</p></div>
+            <div class="skill-item"><p>REST APIs</p></div>
+            <div class="skill-item"><p>GraphQL</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Messaging & Streaming</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>Apache Kafka</p></div>
+            <div class="skill-item"><p>RabbitMQ</p></div>
+            <div class="skill-item"><p>gRPC</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Databases</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>MySQL</p></div>
+            <div class="skill-item"><p>Oracle</p></div>
+            <div class="skill-item"><p>PostgreSQL</p></div>
+            <div class="skill-item"><p>MongoDB</p></div>
+            <div class="skill-item"><p>Redis</p></div>
+            <div class="skill-item"><p>Cassandra</p></div>
+            <div class="skill-item"><p>DynamoDB</p></div>
+            <div class="skill-item"><p>AWS RDS</p></div>
+            <div class="skill-item"><p>Aurora</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Cloud</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>AWS (EC2, S3, Lambda)</p></div>
+            <div class="skill-item"><p>API Gateway</p></div>
+            <div class="skill-item"><p>DynamoDB</p></div>
+            <div class="skill-item"><p>EKS</p></div>
+            <div class="skill-item"><p>RDS</p></div>
+            <div class="skill-item"><p>IAM</p></div>
+            <div class="skill-item"><p>SNS</p></div>
+            <div class="skill-item"><p>SQS</p></div>
+            <div class="skill-item"><p>Fargate</p></div>
+            <div class="skill-item"><p>Azure</p></div>
+            <div class="skill-item"><p>GCP</p></div>
+            <div class="skill-item"><p>Pivotal Cloud Foundry</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">DevOps / Tools</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>Docker</p></div>
+            <div class="skill-item"><p>Kubernetes</p></div>
+            <div class="skill-item"><p>Jenkins</p></div>
+            <div class="skill-item"><p>GitHub Actions</p></div>
+            <div class="skill-item"><p>GitLab CI/CD</p></div>
+            <div class="skill-item"><p>Terraform</p></div>
+            <div class="skill-item"><p>ArgoCD</p></div>
+            <div class="skill-item"><p>Prometheus</p></div>
+            <div class="skill-item"><p>Grafana</p></div>
+            <div class="skill-item"><p>ELK Stack</p></div>
+            <div class="skill-item"><p>OpenTelemetry</p></div>
+            <div class="skill-item"><p>Maven</p></div>
+            <div class="skill-item"><p>Gradle</p></div>
+            <div class="skill-item"><p>SonarQube</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">Testing</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>JUnit 5</p></div>
+            <div class="skill-item"><p>Mockito</p></div>
+            <div class="skill-item"><p>Selenium</p></div>
+            <div class="skill-item"><p>Postman</p></div>
+            <div class="skill-item"><p>Swagger</p></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3 class="category-title">AI / ML & GenAI</h3>
+          <div class="skills-grid">
+            <div class="skill-item"><p>ML & DL Concepts</p></div>
+            <div class="skill-item"><p>NumPy</p></div>
+            <div class="skill-item"><p>Pandas</p></div>
+            <div class="skill-item"><p>Scikit-learn</p></div>
+            <div class="skill-item"><p>Generative AI</p></div>
+            <div class="skill-item"><p>LLM API Integration</p></div>
+            <div class="skill-item"><p>Prompt Engineering</p></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <div class="container">
+      <h2 class="section-title">Education</h2>
+
+      <div class="education-container">
+        <div class="education-card">
+          <div class="education-icon">
+            <i data-lucide="graduation-cap" size="28"></i>
+          </div>
+          <div class="education-content">
+            <h3>DePaul University</h3>
+            <p class="degree">Master of Science in Data Science</p>
+
+            <div class="education-details">
+              <div class="education-detail">
+                <i data-lucide="map-pin" size="16"></i>
+                <span>Chicago, IL</span>
+              </div>
+              <div class="education-detail">
+                <i data-lucide="calendar" size="16"></i>
+                <span>Sep 2023 – May 2025</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="education-card">
+          <div class="education-icon">
+            <i data-lucide="graduation-cap" size="28"></i>
+          </div>
+          <div class="education-content">
+            <h3>Sree Vidyanikethan Engineering College</h3>
+            <p class="degree">Bachelor of Technology in Computer Science and System Engineering</p>
+
+            <div class="education-details">
+              <div class="education-detail">
+                <i data-lucide="map-pin" size="16"></i>
+                <span>Andhra Pradesh, India</span>
+              </div>
+              <div class="education-detail">
+                <i data-lucide="calendar" size="16"></i>
+                <span>June 2018 – May 2022</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-text">I’m open to full-time opportunities and exciting projects.</p>
+
+      <div class="contact-info">
+        <div class="contact-item">
+          <i data-lucide="mail" size="24"></i>
+          <a href="mailto:sanjayuppala31@gmail.com">sanjayuppala31@gmail.com</a>
+        </div>
+
+        <div class="contact-item">
+          <i data-lucide="phone" size="24"></i>
+          <a href="tel:+13217581515">+1 (321) 758-1515</a>
+        </div>
+
+        <div class="contact-item">
+          <i data-lucide="map-pin" size="24"></i>
+          <span>Wilmington, USA</span>
+        </div>
+
+        <div class="contact-item">
+          <i data-lucide="file-text" size="24"></i>
+          <a href="Sanjay_Uppala_Resume.pdf" download>Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p class="copyright">
+          &copy; <span id="current-year"></span> Sanjay Uppala. All rights reserved.
+        </p>
+
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sanjay-uppala-250389210/" aria-label="LinkedIn">
+            <i data-lucide="linkedin" size="20"></i>
+          </a>
+          <a href="mailto:sanjayuppala31@gmail.com" aria-label="Email">
+            <i data-lucide="mail" size="20"></i>
+          </a>
+          <a href="https://github.com/Sanjay5787" aria-label="GitHub">
+            <i data-lucide="github" size="20"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
